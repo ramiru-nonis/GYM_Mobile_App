@@ -22,7 +22,8 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.ramirun.app"
     },
     "web": {
       "bundler": "metro",
@@ -34,6 +35,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "18be3ed2-8572-495d-8e5d-491d8c665511"
+      }
+    },
+    "owner": "ramirun"
   }
 }
